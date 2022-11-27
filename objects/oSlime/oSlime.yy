@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "oSlime",
   "spriteId": {
-    "name": "sSlime",
-    "path": "sprites/sSlime/sSlime.yy",
+    "name": "sSlimeIdle",
+    "path": "sprites/sSlimeIdle/sSlimeIdle.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-#macro TS 16
+#macro TS 8
 var _w = ceil(room_width / TS)
 var _h = ceil(room_height / TS)
 
