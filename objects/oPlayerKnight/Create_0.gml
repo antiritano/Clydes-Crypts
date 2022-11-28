@@ -2,7 +2,8 @@ event_inherited()
 
 dashing = false
 iFrames = 20
-attackButton = mb_left
+leftAttackButton = mb_left
+RightAttackButton = mb_right
 rollButton = vk_control
 stamina = 100
 staminaMax = 100
@@ -14,14 +15,9 @@ playerSpeed = 1.5
 firingdelay = 0;
 dashDelay = 0;
 
-staminaBarWidth = 200
-staminaBarHeight = 25
-staminaBarX = 20
-staminaBarY = 50
+equippedLeftSprite = sAttackButtonKnife
+equippedRightSprite = sAttackButtonHammer
 
-healthBarWidth = 200
-healthBarHeight = 25
-healthBarX = 20
-healthBarY = 20
-
+equippedLeft = oKnife
+equippedRight = oWarHammer
 

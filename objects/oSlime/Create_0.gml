@@ -3,3 +3,6 @@
 event_inherited()
 sIdle = sSlimeIdle
 sWalk = sSlimeWalk
+
+coinsMin = 0
+coinsMax = 3

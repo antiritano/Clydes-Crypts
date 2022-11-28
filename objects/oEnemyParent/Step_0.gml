@@ -22,7 +22,10 @@ switch(state) {
 		calcEntintyMovement();
 		checkForPlayer();
 		checkFacing();
-		if path_index == -1 state = states.IDLE
+		//if (object_index == oSlime)
+		//{
+		//if path_index == -1 state = states.IDLE
+		//} 
 		enemyAnimation()
 	break;
 	
@@ -34,6 +37,12 @@ switch(state) {
 	case states.DEAD:
 		calcEntintyMovement();
 		enemyAnimation()
+		repeat(irandom_range(coinsMin,coinsMax))
+		{
+		instance_create_layer(x+random_range(0,8),y+random_range(0,8),"Instances",oCoin)
+		oCoin.image_xscale = .7
+		oCoin.image_yscale = .7
+		}
 		instance_destroy()
 	break;
 }

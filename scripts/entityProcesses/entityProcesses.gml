@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function damageEntinty(_tid,_sid,_damage,_time){
-	///@arg tid taget_id
+	///@arg  taget_id
 	///@arg  source_id
 	///@arg  how much damage
 	///@arg  how long to knockback

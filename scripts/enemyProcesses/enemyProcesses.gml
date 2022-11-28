@@ -55,6 +55,7 @@ if foundPlayer {
 else {
 	//are we close enough to attack
 	if distance < attackDistance {
+		path_end()
 		state = states.ATTACK
 	}
 }

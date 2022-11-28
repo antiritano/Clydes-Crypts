@@ -4,7 +4,7 @@ event_inherited()
 enemySpeed = .5
 alert = false
 alertDistance = 80
-attackDistance = .5
+attackDistance = 0
 hpMax = 15
 hp = hpMax
 

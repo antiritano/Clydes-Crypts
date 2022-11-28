@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oEntityPar",
-    "path": "objects/oEntityPar/oEntityPar.yy",
+    "name": "oPlayerPar",
+    "path": "objects/oPlayerPar/oPlayerPar.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -36,7 +36,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Player Character",
+    "path": "folders/Objects/Player Character.yy",
   },
 }
