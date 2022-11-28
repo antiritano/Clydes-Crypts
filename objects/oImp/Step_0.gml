@@ -8,7 +8,7 @@ event_inherited();
 firingdelay -= 1;
 
 
-if (oImp.state = states.ATTACK)
+if (state = states.ATTACK)
 {
 
 	if (firingdelay < 0) 
@@ -26,6 +26,6 @@ if (oImp.state = states.ATTACK)
 				image_angle = point_direction(x,y,oPlayerPar.x ,oPlayerPar.y) - 90;
 			}
 					
-		}
+		} 
 	
 }

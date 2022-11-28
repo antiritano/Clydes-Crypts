@@ -37,12 +37,10 @@ switch(state) {
 	case states.DEAD:
 		calcEntintyMovement();
 		enemyAnimation()
-		repeat(irandom_range(coinsMin,coinsMax))
-		{
-		instance_create_layer(x+random_range(0,8),y+random_range(0,8),"Instances",oCoin)
-		oCoin.image_xscale = .7
-		oCoin.image_yscale = .7
-		}
+		instance_create_layer(x,y,"Instances",oExplosion)
+				oExplosion.image_xscale = .25
+		oExplosion.image_yscale = .25
+	spawnCoins(coinsMin,coinsMax)
 		instance_destroy()
 	break;
 }

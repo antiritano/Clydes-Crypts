@@ -51,5 +51,17 @@ function isDead(){
 	} else return true;
 }
 
+function spawnCoins(minRange,maxRange)
+{
+///@arg minimum range
+///@arg maximum range
+
+	repeat(irandom_range(minRange,maxRange))
+		{
+		instance_create_layer(x+random_range(0,15),y+random_range(0,15),"Pickups",oCoin)
+		oCoin.image_xscale = .7
+		oCoin.image_yscale = .7
+		}
+}
 
 	

@@ -38,6 +38,7 @@ switch(state) {
 			firingdelay = 60;
 			stamina -= 40
 			instance_create_layer(x,y,"Projectile",oWarHammer)
+			oWarHammer.image_angle = point_direction(oPlayerKnight.x,oPlayerKnight.y,mouse_x,mouse_y)
 		}
 		}
 		break;

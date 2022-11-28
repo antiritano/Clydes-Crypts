@@ -11,5 +11,7 @@ y = oPlayerKnight.y+5
 
 
 
-image_angle -= 10 * facing
-if (image_angle = -230 * facing) instance_destroy()
+
+image_angle -= 10 * dir
+
+
