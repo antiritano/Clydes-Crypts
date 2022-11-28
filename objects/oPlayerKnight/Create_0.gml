@@ -1,12 +1,12 @@
 event_inherited()
 
-
-
+dashing = false
+iFrames = 20
 attackButton = mb_left
 rollButton = vk_control
 stamina = 100
 staminaMax = 100
-health = 100
+hp = 100
 maxHealth = 100
 playerMoving = false
 playerSpeed = 1.5

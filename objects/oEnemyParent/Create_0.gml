@@ -13,3 +13,10 @@ path = path_add()
 calcPathDelay = 30;
 
 calcPathTimer = irandom(60)
+
+canAttack = true
+
+
+attackCooldown = 75
+damage = 5;
+knockbackTime = 0

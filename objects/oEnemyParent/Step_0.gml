@@ -20,6 +20,9 @@ switch(state) {
 	
 	case states.ATTACK:
 		calcEntintyMovement();
+		checkForPlayer();
+		checkFacing();
+		if path_index == -1 state = states.IDLE
 		enemyAnimation()
 	break;
 	

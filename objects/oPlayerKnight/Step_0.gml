@@ -24,15 +24,17 @@ switch(state) {
 	}
 	//dash
 	if (dashDelay < 0) playerSpeed = 1;
-	dashing = false
 	playerMoving = false
 	dashDelay -= 1
 	if (keyboard_check_pressed(rollButton) && stamina >= 10 && dashDelay < 0 && sprite_index != sKnightIdle)
 	{
-	dashDelay = 2;
+	alarm[0] = iFrames
+	dashing = true
+	dashDelay = 3;
 	stamina -= 20;
 	playerSpeed = 10;
-	dashing = true
+	
+	
 	if (dashing = true) 
 	{
 		part_type_sprite(oParticleSystem.particleTypeDash,oPlayerKnight.sprite_index,0,0,1)

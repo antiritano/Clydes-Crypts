@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+owner_id = noone;
 state = states.IDLE
 //previous positions
 xp = x;
