@@ -12,12 +12,13 @@ maxHealth = 100
 playerMoving = false
 playerSpeed = 1.5
 
-firingdelay = 0;
+firingdelayLeft = 0;
+firingdelayRight = 0;
 dashDelay = 0;
 
-equippedLeftSprite = sAttackButtonKnife
+equippedLeftSprite = sAttackButtonBomb
 equippedRightSprite = sAttackButtonHammer
 
-equippedLeft = oKnife
+equippedLeft = oBomb
 equippedRight = oWarHammer
 

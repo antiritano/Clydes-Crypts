@@ -4,4 +4,12 @@
 if place_meeting(x,y,oSolid)
 {
 move_towards_point(oPlayerPar.x,oPlayerPar.y,10)
-} else move_towards_point(oPlayerPar.x,oPlayerPar.y,0)
+} 
+
+if (distance_to_object(oPlayerPar) < 10)
+{
+	moveSpeed += .2
+move_towards_point(oPlayerPar.x,oPlayerPar.y,moveSpeed)
+
+} 
+

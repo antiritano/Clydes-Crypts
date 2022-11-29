@@ -31,8 +31,8 @@ function isDead(){
 				default:
 					repeat(20){
 					instance_create_layer(x,y,"Projectile",oParticleBlood)
-					oParticleBlood.image_xscale = choose(1,2,3)
-					oParticleBlood.image_yscale = choose(1,2,3)
+					oParticleBlood.image_xscale = choose(2,3,4)
+					oParticleBlood.image_yscale = choose(2,3,4)
 					}
 	
 				break;
@@ -53,14 +53,12 @@ function isDead(){
 
 function spawnCoins(minRange,maxRange)
 {
-///@arg minimum range
-///@arg maximum range
-
 	repeat(irandom_range(minRange,maxRange))
 		{
-		instance_create_layer(x+random_range(0,15),y+random_range(0,15),"Pickups",oCoin)
+		with instance_create_layer(x+random_range(1,15),y+random_range(1,15),"Pickups",oCoin){
 		oCoin.image_xscale = .7
 		oCoin.image_yscale = .7
+		}
 		}
 }
 

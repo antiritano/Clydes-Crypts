@@ -9,13 +9,13 @@ switch(state) {
 	
 	if (stamina < 0) stamina = 0
 	//Left Attack	
-	firingdelay -= 1;
-	if (mouse_check_button(leftAttackButton) && firingdelay < 0) 
+	firingdelayLeft -= 1;
+	if (mouse_check_button(leftAttackButton) && firingdelayLeft < 0) 
 	{
 		switch(equippedLeft){		
 		case oKnife:
 		if stamina >= 15 {
-			firingdelay = 30;
+			firingdelayLeft = 30;
 			stamina -= 15
 			with (instance_create_layer(x,y,"Projectile",oKnife))
 			{
@@ -24,18 +24,33 @@ switch(state) {
 				image_angle = point_direction(x,y,mouse_x,mouse_y) - 90;
 			}
 					}
+					break;
+		case oBomb:
+		if stamina >= 30 {
+			firingdelayLeft = 30;
+			stamina -= 30
+			with (instance_create_layer(x,y,"Projectile",oBomb))
+			{
+			
+				direction = point_direction(x,y,mouse_x,mouse_y)
+				move_towards_point(mouse_x,mouse_y,oBomb.throwSpeed)
+			
+				
+			}
+					}
+					break;
 		}
-		break;
+		
 	}
 	
 	//Right Attack	
-	firingdelay -= 1;
-	if (mouse_check_button(RightAttackButton) && firingdelay < 0) 
+	firingdelayRight -= 1;
+	if (mouse_check_button(RightAttackButton) && firingdelayRight < 0) 
 	{
 		switch(equippedRight){		
 		case oWarHammer:
 		if stamina >= 40 {
-			firingdelay = 60;
+			firingdelayRight = 60;
 			stamina -= 40
 			instance_create_layer(x,y,"Projectile",oWarHammer)
 			oWarHammer.image_angle = point_direction(oPlayerKnight.x,oPlayerKnight.y,mouse_x,mouse_y)

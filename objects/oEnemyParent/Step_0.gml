@@ -37,9 +37,9 @@ switch(state) {
 	case states.DEAD:
 		calcEntintyMovement();
 		enemyAnimation()
-		instance_create_layer(x,y,"Instances",oExplosion)
-				oExplosion.image_xscale = .25
-		oExplosion.image_yscale = .25
+		//instance_create_layer(x,y,"Instances",oExplosion)
+		//		oExplosion.image_xscale = .25
+		//oExplosion.image_yscale = .25
 	spawnCoins(coinsMin,coinsMax)
 		instance_destroy()
 	break;
