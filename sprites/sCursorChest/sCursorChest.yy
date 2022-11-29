@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Utilities",
-    "path": "folders/Sprites/Utilities.yy",
+    "name": "Cursors",
+    "path": "folders/Sprites/Utilities/Cursors.yy",
   },
 }

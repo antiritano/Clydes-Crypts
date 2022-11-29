@@ -2,4 +2,5 @@
 // You can write your code in this editor
 
 
-isDestructible = true
+hp = 1
+delay = false

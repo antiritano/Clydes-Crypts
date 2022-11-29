@@ -6,9 +6,11 @@ cursor_sprite = sCursorShoot
 global.mp_grid = 0;
 global.drag = 0.93
 
+
 staminaBarWidth = 170
 staminaBarHeight = 30
 
 
 healthBarWidth = 170
 healthBarHeight = 30
+

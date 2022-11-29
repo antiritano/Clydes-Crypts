@@ -9,7 +9,10 @@
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sImpIdle",
+    "path": "sprites/sImpIdle/sImpIdle.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "oEnemyParent",

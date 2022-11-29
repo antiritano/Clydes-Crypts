@@ -7,3 +7,10 @@ enum states {
 	DEAD,
 	KNOCKBACK,
 }
+
+enum enemies {
+	NONE,
+	SKELETON,
+	SLIME,
+	IMP,
+}

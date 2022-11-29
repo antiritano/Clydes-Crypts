@@ -1,0 +1,5 @@
+
+global.spawnEnemy = enemies.SLIME
+
+
+
