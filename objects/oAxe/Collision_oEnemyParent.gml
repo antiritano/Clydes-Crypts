@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-damage = 5;
-
-knockbackTime = 1
+if other.hp > 0 {
+damageEntinty(other, oPlayerKnight, damage, knockbackTime);
+}

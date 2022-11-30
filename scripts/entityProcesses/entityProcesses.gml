@@ -5,21 +5,19 @@ function damageEntinty(_tid,_sid,_damage,_time){
 	///@arg  source_id
 	///@arg  how much damage
 	///@arg  how long to knockback
-	
 	with(_tid) {
 		hp -= _damage;
 		var _dead = isDead();
 		path_end();
 		//set knockback distance
-		if _dead var _dis = 1 else var _dis = 1;
+		if _dead var _dis = 1 else var _dis = _time;
 		var _dir = point_direction(_sid.x, _sid.y, x, y)
 		hsp += lengthdir_x(_dis,_dir);
 		vsp += lengthdir_y(_dis,_dir)
 		alert = true;
 		knockbackTime = _time
 		return _dead;
-			
-}
+	}
 }
 
 function isDead(){

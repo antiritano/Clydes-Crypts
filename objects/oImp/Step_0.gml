@@ -11,7 +11,7 @@ firingdelay -= 1;
 if (state = states.ATTACK)
 {
 
-	if (firingdelay < 0) 
+	if (firingdelay < 0 && instance_number(oFireball) < 4) 
 	{
 				
 			firingdelay = random_range(60,300);

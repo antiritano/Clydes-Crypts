@@ -20,3 +20,4 @@ canAttack = true
 attackCooldown = 75
 damage = 5;
 knockbackTime = 0
+iFrame=false

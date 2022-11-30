@@ -39,6 +39,20 @@ switch(state) {
 			}
 					}
 					break;
+		case oAxe:
+		if (stamina >= 30 && instance_exists(oAxe)= false) {
+			firingdelayLeft = 30;
+			stamina -= 30
+			with (instance_create_layer(x,y,"Projectile",oAxe))
+			{
+			
+				direction = point_direction(x,y,mouse_x,mouse_y)
+				move_towards_point(mouse_x,mouse_y,3)
+			
+				
+			}
+					}
+					break;
 		}
 		
 	}
