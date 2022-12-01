@@ -20,5 +20,5 @@ equippedLeftSprite = sAttackButtonBomb
 equippedRightSprite = sAttackButtonHammer
 
 equippedLeft = oBomb
-equippedRight = oWarHammer
+equippedRight = oQuake
 

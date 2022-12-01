@@ -49,6 +49,7 @@
     {"id":{"name":"sBomb","path":"sprites/sBomb/sBomb.yy",},"order":5,},
     {"id":{"name":"oHammerPickup","path":"objects/oHammerPickup/oHammerPickup.yy",},"order":4,},
     {"id":{"name":"macrosAndEnums","path":"scripts/macrosAndEnums/macrosAndEnums.yy",},"order":4,},
+    {"id":{"name":"oQuake","path":"objects/oQuake/oQuake.yy",},"order":7,},
     {"id":{"name":"oChest","path":"objects/oChest/oChest.yy",},"order":2,},
     {"id":{"name":"sSlimeIdle","path":"sprites/sSlimeIdle/sSlimeIdle.yy",},"order":0,},
     {"id":{"name":"oPlayerPar","path":"objects/oPlayerPar/oPlayerPar.yy",},"order":2,},
@@ -98,6 +99,7 @@
     {"id":{"name":"oSkeleton","path":"objects/oSkeleton/oSkeleton.yy",},"order":2,},
     {"id":{"name":"sImpIdle","path":"sprites/sImpIdle/sImpIdle.yy",},"order":0,},
     {"id":{"name":"sImpRun","path":"sprites/sImpRun/sImpRun.yy",},"order":1,},
+    {"id":{"name":"sQuake","path":"sprites/sQuake/sQuake.yy",},"order":12,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

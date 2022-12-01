@@ -69,9 +69,21 @@ switch(state) {
 			instance_create_layer(x,y,"Projectile",oWarHammer)
 			oWarHammer.image_angle = point_direction(oPlayerKnight.x,oPlayerKnight.y,mouse_x,mouse_y)
 		}
+		
+		break;
+		case oQuake:
+		if stamina >= 40 {
+			firingdelayRight = 60;
+			stamina -= 40
+			instance_create_layer(x,y,"Projectile",oQuake)
+			oQuake.image_angle = point_direction(x,y,mouse_x,mouse_y) - 90;
+			oQuake.image_xscale = 1.5
+			oQuake.image_yscale = 1.5
+		}
 		}
 		break;
 	}
+	
 	
 	
 	
