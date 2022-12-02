@@ -4,6 +4,6 @@
 if (canAttack and oPlayerKnight.dashing = false) {
 		canAttack = false;
 		alarm[0] = attackCooldown
-		damageEntinty(other, oEnemyParent, damage, knockbackTime);
+		damageEntinty(oPlayerKnight, oEnemyParent, damage, knockbackTime);
 		other.knockbackTime = 5
 	}

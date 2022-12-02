@@ -111,8 +111,12 @@ switch(state) {
 	}
 
 	}
+	
+	if oGame.hp <= 0 room_restart()
 	break;
 }
+
+
 
 
 

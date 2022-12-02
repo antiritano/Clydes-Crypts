@@ -13,4 +13,5 @@ staminaBarHeight = 30
 
 healthBarWidth = 170
 healthBarHeight = 30
-
+coins = 0
+hp = 100

@@ -3,4 +3,4 @@
 
 
 image_speed = 0
-doorOpen = true
+doorOpen = false

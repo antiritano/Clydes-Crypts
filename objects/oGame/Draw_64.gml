@@ -21,7 +21,7 @@ draw_sprite_stretched(sHealthBar,
 0,
 55,
 32,
-(oPlayerKnight.hp/oPlayerKnight.maxHealth) * healthBarWidth,
+(oGame.hp/oPlayerKnight.maxHealth) * healthBarWidth,
 healthBarHeight)
 draw_sprite_stretched(sEnergyBarBorder
 ,0
@@ -42,10 +42,10 @@ draw_set_font(fMedium)
 draw_set_color(c_black)
 draw_text(90,980,"x")
 draw_set_font(fLarge)
-if (oPlayerPar.coins < 100){
-draw_text(125,955,oPlayerPar.coins)
+if (oGame.coins < 100){
+draw_text(125,955,oGame.coins)
 }
- else draw_text(110,955,oPlayerPar.coins)
+ else draw_text(110,955,oGame.coins)
  
 	
 

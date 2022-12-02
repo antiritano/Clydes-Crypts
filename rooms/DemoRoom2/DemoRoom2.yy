@@ -53,8 +53,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_60A72123","properties":[],"isDnd":false,"objectId":{"name":"oAxePickup","path":"objects/oAxePickup/oAxePickup.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":456.0,"y":154.0,},
       ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_B1EC999","properties":[],"isDnd":false,"objectId":{"name":"oGame","path":"objects/oGame/oGame.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":48.0,"y":80.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5FAB1923","properties":[],"isDnd":false,"objectId":{"name":"oParticleSystem","path":"objects/oParticleSystem/oParticleSystem.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":48.0,"y":112.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_67F328FA","properties":[],"isDnd":false,"objectId":{"name":"oBox","path":"objects/oBox/oBox.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":144.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_12DC8F5A","properties":[],"isDnd":false,"objectId":{"name":"oBox","path":"objects/oBox/oBox.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":192.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7FB042AA","properties":[],"isDnd":false,"objectId":{"name":"oBox","path":"objects/oBox/oBox.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":96.0,},
@@ -86,8 +84,6 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_B1EC999","path":"rooms/DemoRoom2/DemoRoom2.yy",},
-    {"name":"inst_5FAB1923","path":"rooms/DemoRoom2/DemoRoom2.yy",},
     {"name":"inst_671ECE6F","path":"rooms/DemoRoom2/DemoRoom2.yy",},
     {"name":"inst_643EB308","path":"rooms/DemoRoom2/DemoRoom2.yy",},
     {"name":"inst_1145BC55","path":"rooms/DemoRoom2/DemoRoom2.yy",},
@@ -147,7 +143,7 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "FloorOne",
-    "path": "folders/Rooms/FloorOne.yy",
+    "name": "Demo",
+    "path": "folders/Rooms/Demo.yy",
   },
 }

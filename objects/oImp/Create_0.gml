@@ -5,7 +5,7 @@
 // Inherit the parent event
 event_inherited();
 
-attackDistance = 80
+attackDistance = 140
 sIdle = sImpIdle
 sWalk = sImpRun
 firingdelay = random_range(60,120)
