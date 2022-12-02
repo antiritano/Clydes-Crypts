@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-damage = 1;
+damage = 2;
 
 knockbackTime = 5
 facing = oPlayerKnight.facing

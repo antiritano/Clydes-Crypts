@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-damage = 1;
 
-knockbackTime = 2
+if doorOpen = true
+{
+	room_goto_next()
+}

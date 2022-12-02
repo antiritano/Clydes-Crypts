@@ -16,9 +16,9 @@ firingdelayLeft = 0;
 firingdelayRight = 0;
 dashDelay = 0;
 
-equippedLeftSprite = sAttackButtonBomb
+equippedLeftSprite = sAttackButtonKnife
 equippedRightSprite = sAttackButtonHammer
 
-equippedLeft = oBomb
-equippedRight = oQuake
+equippedLeft = oKnife
+equippedRight = oWarHammer
 

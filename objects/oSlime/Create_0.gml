@@ -3,6 +3,8 @@
 event_inherited()
 sIdle = sSlimeIdle
 sWalk = sSlimeWalk
+alertDistance = 160
+enemySpeed = .5
 
 coinsMin = 0
 coinsMax = 3

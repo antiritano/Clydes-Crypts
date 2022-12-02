@@ -5,11 +5,11 @@
 // Inherit the parent event
 event_inherited();
 
-attackDistance = 50
+attackDistance = 80
 sIdle = sImpIdle
 sWalk = sImpRun
-firingdelay = random_range(60,300)
-
+firingdelay = random_range(60,120)
+alertDistance = 150
 
 coinsMin = 1
 coinsMax = 5
