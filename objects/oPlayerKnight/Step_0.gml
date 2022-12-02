@@ -112,7 +112,7 @@ switch(state) {
 
 	}
 	
-	if oGame.hp <= 0 room_restart()
+	if oGame.hp <= 0 game_restart()
 	break;
 }
 

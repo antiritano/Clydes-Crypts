@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oLeverParent",
-  "spriteId": {
-    "name": "sLever",
-    "path": "sprites/sLever/sLever.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
