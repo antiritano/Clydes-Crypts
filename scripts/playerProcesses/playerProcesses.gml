@@ -162,6 +162,6 @@ function knightAttacks() {
 			oQuake.image_yscale = 1.5
 		}
 		}
-		break;
+		
 	}
 }
