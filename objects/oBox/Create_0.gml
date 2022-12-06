@@ -3,4 +3,3 @@
 
 
 hp = 1
-delay = false

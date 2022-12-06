@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oBoxBroken",
+  "name": "oPotBroken",
   "spriteId": {
-    "name": "sBoxBroken",
-    "path": "sprites/sBoxBroken/sBoxBroken.yy",
+    "name": "sPotRedBroken",
+    "path": "sprites/sPotRedBroken/sPotRedBroken.yy",
   },
   "solid": false,
   "visible": true,
