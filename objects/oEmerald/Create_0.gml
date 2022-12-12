@@ -6,4 +6,4 @@
 // Inherit the parent event
 event_inherited();
 
-worth = 5
+worth = 1

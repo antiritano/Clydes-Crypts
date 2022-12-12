@@ -13,5 +13,9 @@ sWalk = sSkeletonRun
 
 coinsMin = 1
 coinsMax = 5
+emeraldMin = 1
+emeraldMax = 2
+rubyMin = 0
+rubyMax = 1
 
 image_index = irandom_range(1,4)

@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oCoin",
+  "name": "oEmerald",
   "spriteId": {
-    "name": "sCoin",
-    "path": "sprites/sCoin/sCoin.yy",
+    "name": "sEmerald",
+    "path": "sprites/sEmerald/sEmerald.yy",
   },
   "solid": false,
   "visible": true,

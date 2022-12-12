@@ -49,11 +49,25 @@ function isDead(){
 	} else return true;
 }
 
-function spawnCoins(minRange,maxRange)
+function spawnCoins(minCoin,maxCoin,minEmerald,maxEmerald,minRuby,maxRuby)
 {
-	repeat(irandom_range(minRange,maxRange))
+	repeat(irandom_range(minCoin,maxCoin))
 		{
 		with instance_create_layer(x+random_range(1,15),y+random_range(1,15),"Pickups",oCoin){
+		oCoin.image_xscale = .7
+		oCoin.image_yscale = .7
+		}
+		}
+			repeat(irandom_range(minEmerald,maxEmerald))
+		{
+		with instance_create_layer(x+random_range(1,15),y+random_range(1,15),"Pickups",oEmerald){
+		oCoin.image_xscale = .7
+		oCoin.image_yscale = .7
+		}
+		}
+			repeat(irandom_range(minRuby,maxRuby))
+		{
+		with instance_create_layer(x+random_range(1,15),y+random_range(1,15),"Pickups",oRuby){
 		oCoin.image_xscale = .7
 		oCoin.image_yscale = .7
 		}

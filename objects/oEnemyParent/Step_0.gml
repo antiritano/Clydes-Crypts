@@ -40,7 +40,7 @@ switch(state) {
 		//instance_create_layer(x,y,"Instances",oExplosion)
 		//		oExplosion.image_xscale = .25
 		//oExplosion.image_yscale = .25
-	spawnCoins(coinsMin,coinsMax)
+	spawnCoins(coinsMin,coinsMax,emeraldMin,emeraldMax,rubyMin,rubyMax)
 		instance_destroy()
 	break;
 }

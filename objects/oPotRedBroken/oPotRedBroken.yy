@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oCoin",
+  "name": "oPotRedBroken",
   "spriteId": {
-    "name": "sCoin",
-    "path": "sprites/sCoin/sCoin.yy",
+    "name": "sPotRedBroken",
+    "path": "sprites/sPotRedBroken/sPotRedBroken.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "oCurrencyParent",
-    "path": "objects/oCurrencyParent/oCurrencyParent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -33,7 +30,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Pickups",
-    "path": "folders/Objects/Pickups.yy",
+    "name": "Containers",
+    "path": "folders/Objects/Containers.yy",
   },
 }

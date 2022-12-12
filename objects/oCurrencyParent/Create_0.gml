@@ -2,8 +2,5 @@
 // You can write your code in this editor
 
 
-
-// Inherit the parent event
-event_inherited();
-
-worth = 5
+ moveSpeed = 1
+ scatter = false

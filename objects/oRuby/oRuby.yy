@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oCoin",
+  "name": "oRuby",
   "spriteId": {
-    "name": "sCoin",
-    "path": "sprites/sCoin/sCoin.yy",
+    "name": "sRuby",
+    "path": "sprites/sRuby/sRuby.yy",
   },
   "solid": false,
   "visible": true,

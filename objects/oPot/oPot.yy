@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oCoin",
+  "name": "oPot",
   "spriteId": {
-    "name": "sCoin",
-    "path": "sprites/sCoin/sCoin.yy",
+    "name": "sPotRed",
+    "path": "sprites/sPotRed/sPotRed.yy",
   },
   "solid": false,
   "visible": true,
@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oCurrencyParent",
-    "path": "objects/oCurrencyParent/oCurrencyParent.yy",
+    "name": "oBox",
+    "path": "objects/oBox/oBox.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -28,12 +28,12 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Pickups",
-    "path": "folders/Objects/Pickups.yy",
+    "name": "Containers",
+    "path": "folders/Objects/Containers.yy",
   },
 }
