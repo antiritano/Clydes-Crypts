@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "oPotBroken",
   "spriteId": {
-    "name": "sPotRedBroken",
-    "path": "sprites/sPotRedBroken/sPotRedBroken.yy",
+    "name": "sPotBroken",
+    "path": "sprites/sPotBroken/sPotBroken.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oPot",
+  "name": "oSpikeTrap",
   "spriteId": {
-    "name": "sPot",
-    "path": "sprites/sPot/sPot.yy",
+    "name": "sSpikeTrap",
+    "path": "sprites/sSpikeTrap/sSpikeTrap.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "oBox",
-    "path": "objects/oBox/oBox.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,12 +25,12 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayerPar","path":"objects/oPlayerPar/oPlayerPar.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Containers",
-    "path": "folders/Objects/Containers.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
 }
